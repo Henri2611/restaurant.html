@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'srirarcha',cursive ; 
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   background-color: rgb(42, 40, 40);
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color:rgb(42, 40, 40); */
+  color: transparent;
+} 
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  padding: 25px 20px;
+  text-transform: uppercase;
+}
+.content {
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 572px;
+}
+.intro {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background:url("res/46595-amazing-whole-wheat-pizza-crust-DDMFS-4x3-79e5d462f27646ffa48df5512986019b.jpg") ;
+  background-repeat: no-repeat;
+
+}
+h1 {
+  font-size: 60px;
+  margin-bottom:20px ;
+  
+}
+.btn {
+  border: none;
+  background-color: black;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.time{
+  
+  border:none;
+  background-color: palevioletred;
+  color: white;
+  padding-left: 1px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 1000px;
+}
+.menu h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.menus{ 
+display: flex;
+justify-content:space-between ;
+flex-wrap: wrap;
+}
+.menu-column {
+  width: 100%;
+}
+
+.menu-column h4::before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #00875c;
+  bottom: 0;
+}
+.single-menu {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  flex-direction: column;
+}
+.single-menu img {
+  width: 200px;
+  height: 150px;
+  border-radius: 49%;
+  max-width: 150px;
+  border: 1px dashed #ddd;
+  padding: 3px;
+  margin-right:15px ;
+  transition: 1s;
+  margin-bottom:25px ;
+
+}
+.single-menu:hover img {
+  transform: rotate(360deg);
+}
+.single-menu .menu-content h5 {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+  border-bottom: 1px dashed white;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+
+}
+.single-menu .menu-content h5 span {
+  color: tomato;
+  float: right;
+  font-weight: 600;
+  font-style: italic;
+}
+.about {
+  height: 900px;
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.about h6{
+  font-size: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  
+}
+.about p{
+  margin: 40px;
+}
+.img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 90px;
+}
+.img2 img {
+  width: 100%;
+  max-width: 450px;
+  height: 310px;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+  color: white;
+  height: 650px;
+}
+footer p {
+  margin: 40px;
+}
+footer h5 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width:300px;
+  padding: 10px;
+  margin: 10px;
+  gap: 10px;
+  
+  
+
+}
+form input{
+  text-transform: uppercase;
+  
+  
+}
+
+
+
